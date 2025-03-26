@@ -1,10 +1,10 @@
-# serv00 上的一些应用，包括 argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针/sun-panel/webssh 等, 自动化部署、批量保号、进程防杀、消息推送
+# serv00/hostuno 上的一些应用，包括 argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针|面板/sun-panel/webssh 等, 自动化部署、批量保号、进程防杀、消息推送
 
 💖 如果你在用这个项目，请给我打个 star，好让我知道有多少人从这个项目中受益。
 
 ## 前置工作
 
-1. 你需要有一个 serv00 帐号
+1. 你需要有一个 serv00/hostuno 帐号
 2. 首次运行，无需使用面板，选 1 安装 serv00-play, 它会自动重新登录，输入 ss 回车进入界面。(以后都是输入 ss 回车进入界面)
 
 ## 安装说明
@@ -39,7 +39,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/frankiejun/serv00-play/main/st
 4.自动更新 serv00-play 代码  
 5.同步更新 telegram、微信等参数  
 6.默认情况下只有登录失败才有 TG 消息通知，提醒可能封号(平时正常不会给你发消息，发消息之时便是你封号之日)
-也可以设定 LOGININFO=Y，每次保活都会做汇总通知(但相信我，你不会喜欢这个功能)
+也可以设定 LOGININFO=Y，每次保活都会做汇总通知(但相信我，你不会喜欢这个功能)  
 7.keepalive 保活虽然不做 ssh 登录，但一样有延续服务器有效期的效果(不再需要 3 月一登)。
 
 ## 消息推送
@@ -82,7 +82,7 @@ argo+vmess 的搭建教学看[这里](https://youtu.be/nmb2F6uBKsg?si=v8twWIkIjs
 ## 赞助
 
 <left><details><summary><strong> [点击展开] 请作者喝杯咖啡 ~🧧</strong></summary>
-_捐赠将是对我最大的支持，它将激励我持续的创新和创作。_
+_捐赠将是对我最大的支持，它将激励我持续的创新和创作。捐赠>=5u, 可联系我加入饭友会会员群_
 
 ![](https://look.pics.cloudns.ch/img/%E6%AC%A7%E6%98%93%E8%B5%9E%E5%8A%A9%E7%A0%81.png)
 
@@ -92,8 +92,7 @@ _捐赠将是对我最大的支持，它将激励我持续的创新和创作。_
 
 ## 项目鸣谢
 
-[nekohasekai](https://github.com/SagerNet/sing-box)、[AlistGo](https://github.com/AlistGo/alist)、[9seconds](https://github.com/9seconds/mtg)、[eooce](https://github.com/eooce)、[nrootconauto](https://github.com/nrootconauto/MrChrootBSD)、[nezhahq](https://github.com/nezhahq/agent)、[huashengdun](https://github.com/huashengdun/webssh)、[hslr-s](https://github.com/hslr-s/sun-panel)  
-[yangtb2024](https://github.com/yangtb2024/OneTimeMessagePHP)
+[nekohasekai](https://github.com/SagerNet/sing-box)、[AlistGo](https://github.com/AlistGo/alist)、[9seconds](https://github.com/9seconds/mtg)、[eooce](https://github.com/eooce)、[nrootconauto](https://github.com/nrootconauto/MrChrootBSD)、[nezhahq](https://github.com/nezhahq/agent)、[huashengdun](https://github.com/huashengdun/webssh)、[hslr-s](https://github.com/hslr-s/sun-panel)、[yangtb2024](https://github.com/yangtb2024/OneTimeMessagePHP)
 
 测试人员: [ryty1](https://github.com/ryty1), [fgr178707](https://github.com/fgr178707)
 
@@ -101,3 +100,7 @@ _捐赠将是对我最大的支持，它将激励我持续的创新和创作。_
 
 本程序仅供学习了解, 非盈利目的，请于下载后 24 小时内删除, 不得用作任何商业用途, 代码、数据及图片均有所属版权, 如转载须注明来源。
 使用本程序必循遵守部署免责声明。使用本程序必循遵守部署服务器所在地、所在国家和用户所在国家的法律法规, 程序作者不对使用者任何不当行为负责。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=frankiejun/serv00-play&type=Date)](https://www.star-history.com/#frankiejun/serv00-play&Date)
