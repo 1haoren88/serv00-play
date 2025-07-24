@@ -14,7 +14,11 @@ if [[ "$resp" =~ .*succesfully.*$ ]]; then
   crontab -l | grep -v "$domain" >tmpcron
   crontab tmpcron
   rm -rf tmpcron
-  config="../config.json"
+  if grep "telegram_token" ../config.json; then
+    config="../config.json"
+  else
+    config="../msg.json"
+  fi
   if [ -e "$config" ]; then
     TELEGRAM_TOKEN=$(jq -r ".telegram_token" "$config")
     TELEGRAM_USERID=$(jq -r ".telegram_userid" "$config")
@@ -25,4 +29,11 @@ if [[ "$resp" =~ .*succesfully.*$ ]]; then
       ./tgsend.sh "$msg"
     fi
   fi
+elif [[ "$resp" =~ .*already.*$ ]]; then
+  echo "域名($domain)的SSL证书已存在,无需重复申请!"
+  crontab -l | grep -v "$domain" >tmpcron
+  crontab tmpcron
+  rm -rf tmpcron
+else
+  echo "申请SSL证书失败,请检查域名($domain)是否正确!"
 fi

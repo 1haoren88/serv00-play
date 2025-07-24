@@ -5,12 +5,12 @@
 ## 前置工作
 
 1. 你需要有一个 serv00/hostuno 帐号
-2. 首次运行，无需使用面板，选 1 安装 serv00-play, 它会自动重新登录，输入 ss 回车进入界面。(以后都是输入 ss 回车进入界面)
+2. 运行安装命令后重新登录，输入 ss 回车进入界面。(以后都是输入 ss 回车进入界面)
 
 ## 安装说明
 
 ```s
-bash <(curl -Ls https://raw.githubusercontent.com/frankiejun/serv00-play/main/start.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/frankiejun/serv00-play/main/start.sh) --install
 ```
 
 ## 变量说明
@@ -82,13 +82,18 @@ argo+vmess 的搭建教学看[这里](https://youtu.be/nmb2F6uBKsg?si=v8twWIkIjs
 ## 赞助
 
 <left><details><summary><strong> [点击展开] 请作者喝杯咖啡 ~🧧</strong></summary>
-_捐赠将是对我最大的支持，它将激励我持续的创新和创作。捐赠>=5u, 可联系我加入饭友会会员群_
+_捐赠将是对我最大的支持，它将激励我持续的创新和创作。捐赠>=5u, 可联系我加入饭友会会员群, 捐赠>=10u, 加入赞助人感谢名单_
 
 ![](https://look.pics.cloudns.ch/img/%E6%AC%A7%E6%98%93%E8%B5%9E%E5%8A%A9%E7%A0%81.png)
 
 - **USDT-TRC20:** `TUa2hLirmyq6tUPpfxHuMmWJExR91vHo5t`
 
 </details></left>
+
+| 赞助人                                                                                                                 | 赞助方式                 | 备注 |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------ | ---- |
+| [HostVds](https://hostvds.com/?affiliate_uuid=2b9179a7-6900-4636-bed2-182b4db0168e)                                    | 提供服务器               | -    |
+| [YXVM](https://support.nodeget.com/page/promotion?id=105) 和 [NodeSupport](https://github.com/NodeSeekDev/NodeSupport) | 赞助本项目提供永久服务器 | --   |
 
 ## 项目鸣谢
 
@@ -101,6 +106,4 @@ _捐赠将是对我最大的支持，它将激励我持续的创新和创作。�
 本程序仅供学习了解, 非盈利目的，请于下载后 24 小时内删除, 不得用作任何商业用途, 代码、数据及图片均有所属版权, 如转载须注明来源。
 使用本程序必循遵守部署免责声明。使用本程序必循遵守部署服务器所在地、所在国家和用户所在国家的法律法规, 程序作者不对使用者任何不当行为负责。
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=frankiejun/serv00-play&type=Date)](https://www.star-history.com/#frankiejun/serv00-play&Date)
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com 'Powered by DartNode - Free VPS for Open Source')
